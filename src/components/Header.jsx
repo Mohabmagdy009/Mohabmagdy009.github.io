@@ -15,6 +15,18 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -116,21 +128,33 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-4">
-            {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left text-gray-700 dark:text-gray-300 hover:text-primary-light dark:hover:text-primary-dark transition-colors font-medium py-2"
-              >
-                {item.name}
-              </button>
-            ))}
-          </div>
-        )}
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      {isMenuOpen && (
+        <>
+          {/* Backdrop - darker so page is less visible */}
+          <div
+            className="fixed inset-0 bg-black/80 md:hidden z-40"
+            onClick={() => setIsMenuOpen(false)}
+          />
+          
+          {/* Mobile Menu */}
+          <div className="fixed top-[72px] left-0 right-0 bg-white dark:bg-gray-900 md:hidden z-50 shadow-2xl">
+            <nav className="px-6 py-6 space-y-2">
+              {navItems.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className="block w-full text-left text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-primary-light dark:hover:text-primary-dark transition-all font-medium py-3 px-4 text-lg rounded-lg"
+                >
+                  {item.name}
+                </button>
+              ))}
+            </nav>
+          </div>
+        </>
+      )}
     </header>
   );
 };
