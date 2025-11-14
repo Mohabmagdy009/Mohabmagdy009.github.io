@@ -50,9 +50,16 @@ const Header = () => {
           {/* Logo/Brand */}
           <button
             onClick={() => scrollToSection('hero')}
-            className="text-2xl font-bold text-gray-900 dark:text-white hover:text-primary-light dark:hover:text-primary-dark transition-colors"
+            className="flex items-center space-x-3 group"
           >
-            Mohab Abbas
+            <img 
+              src="/Casual Photo.jpg" 
+              alt="Mohab Abbas" 
+              className="w-10 h-10 rounded-full object-cover border-2 border-primary-light dark:border-primary-dark transition-transform group-hover:scale-110"
+            />
+            <span className="text-2xl font-bold text-gray-900 dark:text-white group-hover:text-primary-light dark:group-hover:text-primary-dark transition-colors">
+              Mohab Abbas
+            </span>
           </button>
 
           {/* Desktop Navigation */}

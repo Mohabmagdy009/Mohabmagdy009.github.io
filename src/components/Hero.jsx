@@ -73,7 +73,7 @@ const Hero = () => {
               <FiGithub className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/mohab-abbas"
+              href="https://www.linkedin.com/in/mohab-magdy-8085211b1/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-primary-light dark:hover:bg-primary-dark hover:text-white transition-all duration-300 transform hover:scale-110"
@@ -82,7 +82,7 @@ const Hero = () => {
               <FiLinkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:mohab.abbas@example.com"
+              href="mailto:mohab.magdy@hotmail.com"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-primary-light dark:hover:bg-primary-dark hover:text-white transition-all duration-300 transform hover:scale-110"
               aria-label="Email"
             >

@@ -50,10 +50,10 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Email</h4>
                   <a
-                    href="mailto:mohab.abbas@example.com"
+                    href="mailto:mohab.magdy@hotmail.com"
                     className="text-gray-600 dark:text-gray-400 hover:text-primary-light dark:hover:text-primary-dark transition-colors"
                   >
-                    mohab.abbas@example.com
+                    mohab.magdy@hotmail.com
                   </a>
                 </div>
               </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                 </a>
                 <span className="text-gray-400">•</span>
                 <a
-                  href="https://linkedin.com/in/mohab-abbas"
+                  href="https://www.linkedin.com/in/mohab-magdy-8085211b1/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:text-primary-light dark:hover:text-primary-dark transition-colors"
