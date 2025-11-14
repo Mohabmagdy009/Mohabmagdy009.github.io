@@ -36,13 +36,14 @@ const Hero = () => {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-semibold mb-8 text-gray-700 dark:text-gray-300 animate-fade-in-up animation-delay-200">
-            Senior Full-Stack Developer
+            Senior Software Engineer
           </h2>
 
           {/* Description */}
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in-up animation-delay-400">
-            Building scalable web applications with modern technologies.
-            Passionate about clean code, great UX, and continuous learning.
+            Proven leader in software development with expertise in team management, 
+            project leadership, and Agile methodologies. Delivering end-to-end solutions 
+            with cloud computing and microservices architectures.
           </p>
 
           {/* CTA Buttons */}

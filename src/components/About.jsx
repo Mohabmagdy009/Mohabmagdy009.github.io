@@ -4,18 +4,18 @@ const About = () => {
   const highlights = [
     {
       icon: <FiCode className="w-6 h-6" />,
-      title: "Full-Stack Development",
-      description: "Expert in building end-to-end web applications with modern frameworks"
+      title: "Technical Leadership",
+      description: "Led teams of 6+ developers, increasing productivity by 30% through mentorship and Agile practices"
     },
     {
       icon: <FiDatabase className="w-6 h-6" />,
-      title: "Database Design",
-      description: "Proficient in designing scalable database architectures"
+      title: "Enterprise Solutions",
+      description: "Delivered systems handling 10,000+ items with real-time data processing across 32+ sites"
     },
     {
       icon: <FiCloud className="w-6 h-6" />,
-      title: "Cloud & DevOps",
-      description: "Experience with cloud platforms and CI/CD pipelines"
+      title: "Cloud & Microservices",
+      description: "Expert in Azure Cloud, Docker, Kubernetes, and scalable microservices architectures"
     }
   ];
 
@@ -33,18 +33,20 @@ const About = () => {
           {/* Bio */}
           <div>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a Senior Full-Stack Developer with over 8 years of experience building
-              robust and scalable web applications. I specialize in modern JavaScript
-              frameworks and have a strong foundation in both frontend and backend development.
+              I'm a Senior Software Engineer currently at Procore, with proven expertise in 
+              leading development teams and delivering enterprise-level solutions. My experience 
+              spans Python/Django, React.js, cloud computing, and microservices architectures.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              My passion lies in creating seamless user experiences while maintaining
-              clean, efficient, and maintainable code. I believe in continuous learning
-              and staying up-to-date with the latest industry trends and technologies.
+              As a Technical Lead at Nexus Analytica, I successfully led a team of 6 developers 
+              to achieve 100% digital transformation for Benban Solar Park across 32 sites, 
+              improving system efficiency by 40%. At Orange Business, I developed solutions that 
+              recovered €10M in revenue through advanced data analysis tools.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              When I'm not coding, you can find me contributing to open-source projects,
-              writing technical articles, or mentoring junior developers.
+              I hold a BSc in Computer Science with AI from the University of Nottingham, Malaysia. 
+              My passion lies in building scalable systems, mentoring teams, and implementing 
+              Agile methodologies to deliver high-quality software solutions.
             </p>
           </div>
 

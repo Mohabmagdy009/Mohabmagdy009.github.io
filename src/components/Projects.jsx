@@ -3,31 +3,31 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Portfolio Project 1',
       description:
-        'A full-featured e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
+        'A full-featured web application built with modern technologies. Features include real-time updates, responsive design, and optimized performance.',
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redux'],
-      github: 'https://github.com/Mohabmagdy009/ecommerce-platform',
-      demo: 'https://demo-ecommerce.example.com',
+      tags: ['React', 'Python', 'Django', 'PostgreSQL', 'Docker'],
+      github: 'https://github.com/Mohabmagdy009',
+      demo: '#',
     },
     {
-      title: 'Task Management System',
+      title: 'Portfolio Project 2',
       description:
-        'A collaborative task management application with real-time updates. Built with Next.js, TypeScript, PostgreSQL, and Socket.io for real-time communication.',
+        'A scalable enterprise solution with advanced data analytics and visualization capabilities. Built to handle high-volume data processing.',
       image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
-      tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io', 'Tailwind'],
-      github: 'https://github.com/Mohabmagdy009/task-management',
-      demo: 'https://demo-tasks.example.com',
+      tags: ['React', 'Django', 'Azure', 'D3.js', 'REST APIs'],
+      github: 'https://github.com/Mohabmagdy009',
+      demo: '#',
     },
     {
-      title: 'Social Media Dashboard',
+      title: 'Portfolio Project 3',
       description:
-        'An analytics dashboard for social media managers to track engagement metrics. Features data visualization, scheduled posting, and multi-platform integration.',
+        'A comprehensive management system with real-time monitoring and automated workflows. Designed for efficiency and scalability.',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
-      tags: ['React', 'Python', 'FastAPI', 'Chart.js', 'AWS'],
-      github: 'https://github.com/Mohabmagdy009/social-dashboard',
-      demo: 'https://demo-social.example.com',
+      tags: ['Python', 'Flask', 'MongoDB', 'Kafka', 'Microservices'],
+      github: 'https://github.com/Mohabmagdy009',
+      demo: '#',
     },
   ];
 

@@ -65,7 +65,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Location</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    San Francisco, CA
+                    6th of October, Giza, Egypt
                   </p>
                 </div>
               </div>
