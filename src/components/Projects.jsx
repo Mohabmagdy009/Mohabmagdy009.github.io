@@ -12,13 +12,13 @@ const Projects = () => {
       demo: 'https://mohabmagdy009.github.io/task-maintenance-tracker/',
     },
     {
-      title: 'Portfolio Project 2',
+      title: 'Realtime Dashboard Demo',
       description:
-        'A scalable enterprise solution with advanced data analytics and visualization capabilities. Built to handle high-volume data processing.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
-      tags: ['React', 'Django', 'Azure', 'D3.js', 'REST APIs'],
-      github: 'https://github.com/Mohabmagdy009',
-      demo: '#',
+        'A modern real-time monitoring dashboard with live KPIs, dynamic charts, and event streaming. Features include simulation controls, CSV/JSON export, system health monitoring, and localStorage persistence. Built with TypeScript for type safety.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop',
+      tags: ['React', 'TypeScript', 'Vite', 'Recharts', 'Tailwind CSS', 'Dark Mode'],
+      github: 'https://github.com/mohabmagdy009/realtime-dashboard',
+      demo: 'https://mohabmagdy009.github.io/realtime-dashboard/',
     },
     {
       title: 'Portfolio Project 3',
