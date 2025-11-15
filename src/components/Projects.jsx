@@ -21,13 +21,13 @@ const Projects = () => {
       demo: 'https://mohabmagdy009.github.io/realtime-dashboard/',
     },
     {
-      title: 'Portfolio Project 3',
+      title: 'AI Knowledge Base & Assistant',
       description:
-        'A comprehensive management system with real-time monitoring and automated workflows. Designed for efficiency and scalability.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop',
-      tags: ['Python', 'Flask', 'MongoDB', 'Kafka', 'Microservices'],
-      github: 'https://github.com/Mohabmagdy009',
-      demo: '#',
+        'A modern knowledge management system with integrated AI chat assistant. Features markdown articles, fuzzy search, category filtering, semantic article suggestions, and intelligent chat responses with typing indicators. Built with LocalStorage/IndexedDB for data persistence.',
+      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
+      tags: ['React', 'Vite', 'AI Chat', 'Markdown', 'Search', 'Tailwind CSS'],
+      github: 'https://github.com/Mohabmagdy009/ai-knowledge-base',
+      demo: 'https://mohabmagdy009.github.io/ai-knowledge-base/',
     },
   ];
 
