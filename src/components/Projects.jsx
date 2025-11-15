@@ -3,13 +3,13 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
   const projects = [
     {
-      title: 'Portfolio Project 1',
+      title: 'Task & Maintenance Tracker',
       description:
-        'A full-featured web application built with modern technologies. Features include real-time updates, responsive design, and optimized performance.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop',
-      tags: ['React', 'Python', 'Django', 'PostgreSQL', 'Docker'],
-      github: 'https://github.com/Mohabmagdy009',
-      demo: '#',
+        'A full-stack task management system with maintenance logging. Features CRUD operations, search & filters, priority management, and real-time status tracking. Built with localStorage for persistent data storage.',
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
+      tags: ['React', 'Vite', 'Tailwind CSS', 'LocalStorage', 'Dark Mode'],
+      github: 'https://github.com/Mohabmagdy009/task-maintenance-tracker',
+      demo: 'https://mohabmagdy009.github.io/task-maintenance-tracker/',
     },
     {
       title: 'Portfolio Project 2',
